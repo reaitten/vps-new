@@ -44,6 +44,7 @@ RUN set -ex; \
 	ibus-gtk3 \
 	python3-pip \
 	python3-setuptools \
+	software-properties-common
 	
     && add-apt-repository ppa:gezakovacs/ppa \
     && apt-get update \
