@@ -47,7 +47,6 @@ RUN set -ex; \
 	software-properties-common \
 	
     && add-apt-repository ppa:gezakovacs/ppa \
-    && cd $HOME/Downloads \
     && wget http://mirrors.kernel.org/ubuntu/pool/universe/i/ibus-qt/libibus-qt1_1.3.3-1build2_amd64.deb \
     && sudo apt-get install ./libibus-qt1_1.3.3-1build2_amd64.deb -y \
 	
