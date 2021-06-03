@@ -4,7 +4,8 @@ vnc doesn't load due to something idk
 
 use [sobuj53/vpsnew](https://github.com/sobuj53/vps-new) although for some reason, ``xrandr`` command (for changing display) ubuntu can't find it.
 
-full build for me search up later..
+full build log for me search up later..
+
 https://del.dog/vpsh-log-1
 
 # FREE VPS with preinstalled Bug Bounty Tools!
