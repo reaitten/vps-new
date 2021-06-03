@@ -1,11 +1,15 @@
 <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/vps-new"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
+vnc doesn't load due to something idk
+
+use [sobuj53/vpsnew](https://github.com/sobuj53/vps-new) although for some reason, ``xrandr`` command (for changing display) ubuntu can't find it.
+
 # FREE VPS with preinstalled Bug Bounty Tools!
 
 ### Features:
   - Works for straight 12 hours
   - Upto 100 Mbps of Internet
-  - Running on Ubuntu 18.04 Docker Image
+  - Running on Ubuntu 20.04 Docker Image
   - Chromium and Firefox Included
   - Bug Bounty Tools Included
   - Easy to use
