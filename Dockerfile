@@ -44,9 +44,7 @@ RUN set -ex; \
 	ibus-gtk3 \
 	ibus-qt4 \
 	python3-pip \
-	python-pip \
 	python3-setuptools \
-	python-setuptools \
 	
     && apt-get autoclean \
     && apt-get autoremove \
