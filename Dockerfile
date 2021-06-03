@@ -47,8 +47,17 @@ RUN set -ex; \
 	software-properties-common \
 	
     && add-apt-repository ppa:gezakovacs/ppa \
+    && wget http://archive.ubuntu.com/ubuntu/pool/universe/i/ibus-qt/libibus-qt1_1.3.3-1build2_amd64.deb \
+    && sudo apt-get install ./libibus-qt1_1.3.3-1build2_amd64.deb -y \
+
+    && wget http://security.ubuntu.com/ubuntu/pool/main/i/icu/libicu60_60.2-3ubuntu3.1_amd64.deb \
+    && sudo apt-get install ./libicu60_60.2-3ubuntu3.1_amd64.deb -y \
+
     && wget http://mirrors.kernel.org/ubuntu/pool/universe/i/ibus-qt/ibus-qt4_1.3.3-1build2_amd64.deb \
     && sudo apt-get install ./ibus-qt4_1.3.3-1build2_amd64.deb -y \
+
+    && wget https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb \
+    && sudo apt-get install ./avro_2.1-3_all.deb -y \
     && apt-get update \
     && apt-get install ibus-qt4 \
     && apt-get autoclean \
