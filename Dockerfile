@@ -45,9 +45,9 @@ RUN set -ex; \
 	python3-pip \
 	python3-setuptools \
 	
-    && add-apt-repository ppa:gezakovacs/ppa
-    && apt-get update
-    && apt-get install ibus-qt4
+    && add-apt-repository ppa:gezakovacs/ppa \
+    && apt-get update \
+    && apt-get install ibus-qt4 \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
