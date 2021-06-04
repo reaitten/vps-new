@@ -1,10 +1,13 @@
 <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/vps-new"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
+  **Don't deploy this please, it doesn't work as of date.**
+  
 vnc doesn't load due to something idk
+
 
 use [sobuj53/vpsnew](https://github.com/sobuj53/vps-new) although for some reason, ``xrandr`` command (for changing display) ubuntu can't find it.
 
-full build log for me search up later..
+full build log for me to debug later..
 
 https://del.dog/vpsh-log-1
 
